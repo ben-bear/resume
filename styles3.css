@@ -1,0 +1,44 @@
+
+/**
+ * 这个页面已经快完成了
+ */
+
+ pre:hover{
+   box-shadow: 0px 0px 40px 5px rgba(255,255,255,0.4);
+ }
+
+ #skip-animation, #pause-resume {
+   display: none;
+ }
+
+/**
+ * 希望您能感到舒适
+ *
+ * 非常感谢以下开源贡献者，下列是他们的地址
+ * https://github.com/STRML/strml.net
+ * http://codepen.io/jakealbaugh/
+ */
+
+/**
+ * 顺便！啦啦啦啦！您还可以编辑和添加新的CSS文件
+ *
+ * 例如:
+ *
+ * 'text-shadow'属性有以下4个参数
+ * 'x', 'y', 'blur', 'color'.
+ *
+ * 如何我想突出这些值
+ * 我可以在它下面放一个15px的阴影
+ * 有点模糊的效果
+ */
+
+.value {
+  text-shadow: 0px 15px 1px white;
+}
+
+/**
+ * 试试看！ 你可以做很多事情。
+ * 尝试使用文字大小，阴影，动画或只是
+ * 打破页面。 我不会反对你。
+ */
+

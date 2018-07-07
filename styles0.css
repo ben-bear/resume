@@ -1,0 +1,102 @@
+/**
+ *
+ * Hey. 我的名字叫穆云浩
+ *
+ * 在github上发现了这个交互式CSS页面，也是我萌生了一个想法
+ *
+ * 我觉它非常酷炫。。好吧 可能只能我这样认为
+ */
+
+/**
+ * 让我们首先从一个动画开始把
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/**
+ * 好吧~~~其实这一行代码并不会起作用，但是。。。
+ *
+ * 黑色的字在白色的背景下看起来会睡意十足
+ * 让我们做点什么把
+ */
+
+html {
+  background: rgb(63, 82, 99);
+}
+
+/***
+ * 稍等
+ */
+
+pre, a {
+  color: white;
+}
+
+/**
+ * 这样是不是好一点了
+ *
+ * 在这样一个稍显空白的页面工作起来非常麻烦
+ *
+ * 让我们做一个合适的工作区域把
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 44.6%;
+  width: 49%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 10px 10px 20px;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+}
+
+/**
+ * 好了，我们即将填充整个区域
+ *
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+/**
+ * 虽然看起来变好了，但是所有的text都是白色
+ * 让我们把他变得看起来更舒服把
+ */
+
+.comment       { color: #857F6B; font-style: italic; }
+.selector      { color: #E69F0F; }
+.selector .key { color: #64D5EA; }
+.key           { color: #64D5EA; }
+.value         { color: #BE84F2; }
+.value.px      { color: #F92772; }
+
+/**
+ * 现在我们是合适可以交流一些意见了
+ */
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#style-text {
+  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  max-height: 94.5%;
+}
+
+/**
+ * 希望这个页面你看起来还比较满意
+ */
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}
